@@ -4,18 +4,13 @@ This is an example. Replace the information here with your project proposal.
 
 ## Problem Definition
 
-The goal for this project is to build an Information System for Walla Walla University.
-This business application will store information about students and faculty in text files to allow for persistent data.
-Our focus will be on the student faculty relationship as it pertains to advising.
-Student and faculty users will have separate views and menu options.
+The goal for this project is to build a dive calculator that performs various calculations and looks up data for a cemercial diver. 
+The data is relative to the individual dives conducted by one person.
 
 ### Key Features
 
-* Faculty view of students
-* Student view
-* Register for a classes
-* See available classes
-* Calculated GPA
+* Repet grp designation
+* RNT calculations
 
 ### Assumptions
 
@@ -24,7 +19,7 @@ No security (authtentication and permissions) will be implemented for this proje
 
 ## Group Members
 
-* Larry Aamodt
-* Preston Carman
-* Jonathan Duncan
-* James Foster
+* Josh Garbi
+*
+*
+*

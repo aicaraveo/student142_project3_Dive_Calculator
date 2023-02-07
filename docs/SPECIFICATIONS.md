@@ -1,15 +1,36 @@
 # CPTR 142: Project III Specifications
 
-The specifications outlines the project design specifications and project management.
-This is done BEFORE CODING!
+Dive calculator
 
-Here are the things to include in this codument.
+Inputs for calculator:
+ - No D limits calc:
+	- depth (ft of salt water (fsw))
+	- time @ depth (min)
 
-* ___Complete UML diagrams___ of classes, member variables, member functions, and relationships between classes.
-  What structures and menus will be required?  
-* ___Procedural Flow Diagram___ The logical flow of your program
-* ___Anticipated challenges___ and how will you address them?  
-* ___Project Management Plan___
+ - Residual Nitrogen calculator for repetitive dives:
+	- output from no/D limit calc 
+	- surface interval 
+	* depth (old or new)
+
+ - Decompression stops calc:
+	* time 
+
+
+	
+Calculations:
+ * No/D limit calc:
+	Take depth and time (min) and find repet group according to the chart. if the time is greater than the value on the chart it skips to the next square (see Repet Group chart).
+	if the square contains a star (first 3 rows for depth), then that repet group will apply to any time longer than the previous square. if its beyond the 3 columns and rows then a decompression dive
+	is necessary.
+	
+Outputs for calculator:
+ * No D limits calc:
+	* repetitive dive group (letter)
+ * Residual Nitrogen calculator for repetitive dives:
+	* additional compensation time
+ * Decompression stops calculator:
+	* what depth
+	* how long for stop
   * Name __individual group member tasks/responsibilities__.
     Split up the tasks and implementation into portions per group member.
   * __Timeline__ of individual and group delivery dates.
