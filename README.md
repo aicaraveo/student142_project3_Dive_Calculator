@@ -1,8 +1,6 @@
 # CPTR 142: Project III
 
-Add information about your project.
-Such as detailed description, known bugs and user operation instructions.
-This is the file a user will first look at when attempting to run your program.
+The goal for this project is to build a dive calculator that performs various calculations and looks up data for a commercial diver. This calculator will be able to calculate repet group, residual nitrogen, and decompression stops for multiple dives for one person in saltwater.
 
 ## Terminal Commands
 
