@@ -12,5 +12,5 @@ int main() {
   // for (int i=0; i < test_data.size(); i++){
   //   std::cout << test_data.at(i) << " ";
   // }
-  std::cout << mydata.get_Nrnt_grp(20,470);
+  std::cout << mydata.get_Nrnt_grp(141,2);
 }
