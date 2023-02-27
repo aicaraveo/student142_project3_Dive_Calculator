@@ -8,6 +8,9 @@
 int main() {
   // Sample program
   data mydata;
-  //std::cout << mydata.get_Nrnt(11,74);
-  std::cout << mydata.get_Nrnt_grp(70,12);
+  // std::vector<int> test_data = mydata.get_Nrnt(11);
+  // for (int i=0; i < test_data.size(); i++){
+  //   std::cout << test_data.at(i) << " ";
+  // }
+  std::cout << mydata.get_Nrnt_grp(20,470);
 }
