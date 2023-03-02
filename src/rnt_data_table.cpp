@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 
+
 class data
 {
 public:
@@ -99,8 +100,7 @@ char data::get_Nrnt_grp(int depth, int time)
         // round times marked with "*"
         if ((time > Nrnt_grp.at(depth).at(Nrnt_grp.at(depth).size()-1)) && (depth <= 2))
         {
-            //ask ethan about "*" rounding
-            grp = Nrnt_grp.at(depth).size()-1;
+            grp = Nrnt_grp.at(depth).size();
         } 
     }
     return Grps.at(grp);
