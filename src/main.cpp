@@ -5,8 +5,8 @@
 #include "rnt_data_table.cpp"
 #include <iostream>
 
-
-int main() {
+int main()
+{
   // Sample program
   data mydata;
   int depth;
